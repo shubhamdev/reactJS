@@ -13,7 +13,7 @@ var config = {
       loaders: [
          {
             test: /\.jsx?$/,
-            exclude: /node_modules/,
+            // $exceptionHandlerude: /node_modules/,
             loader: 'babel-loader',
             query: {
                presets: ['es2015', 'react']
